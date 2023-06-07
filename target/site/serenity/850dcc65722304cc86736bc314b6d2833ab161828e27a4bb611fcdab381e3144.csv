@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Products CRUD test","This will create a new Product","SUCCESS","2023-06-07T12:19:09.860+10:00[Australia/Sydney]","0.0","4.59"
+"Products CRUD test","Verify if the Product was added to the Application","SUCCESS","2023-06-07T12:19:14.503+10:00[Australia/Sydney]","0.0","0.3"
+"Products CRUD test","This will update Product","SUCCESS","2023-06-07T12:19:14.811+10:00[Australia/Sydney]","0.0","0.28"

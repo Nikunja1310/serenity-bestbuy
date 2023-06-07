@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.storeinfo.CreateStoreDataDrivenTest" time="0" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\nikss\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Apache\apache-maven-3.9.1\bin;C:\Program Files\nodejs\;C:\Users\nikss\AppData\Local\Microsoft\WindowsApps;C:\Users\nikss\AppData\Roaming\npm;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\nikss"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="nikss"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createMultipleStores" classname="com.bestbuy.storeinfo.CreateStoreDataDrivenTest" time="0">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.storeinfo.CreateStoreDataDrivenTest.createMultipleStores(CreateStoreDataDrivenTest.java:46)
+</error>
+    <system-err><![CDATA[5968 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: This will delete product and verify that product is deleted
+--------------------------------------------------------------------------
+5992 [main] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <204> but was <200>.
+6305 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This will create a new Product to file C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy\target\site\serenity\f48b1cce2ac577a2ec240cc62fccbc0ed9caed38adfb96e412d1f81fedc93d38.json (using temp file C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy\target\site\serenity\f48b1cce2ac577a2ec240cc62fccbc0ed9caed38adfb96e412d1f81fedc93d38.json20fd4150-d50c-4f4e-bb4f-9cd195a58e89)
+6306 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify if the Product was added to the Application to file C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy\target\site\serenity\78ec9d7692ae9c5d2b7141e67262b52b1071d8e76ff11a9a6fb1f7bc7e95c427.json (using temp file C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy\target\site\serenity\78ec9d7692ae9c5d2b7141e67262b52b1071d8e76ff11a9a6fb1f7bc7e95c427.json2b80f22c-fa2e-4a5d-9499-5f753bcee72b)
+6306 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This will update Product to file C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy\target\site\serenity\af32c199558a01fdb96dcfe7c95c7bf1c5a841a0f96603d0957d50b065b8785e.json (using temp file C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy\target\site\serenity\af32c199558a01fdb96dcfe7c95c7bf1c5a841a0f96603d0957d50b065b8785e.json3ec44a49-9133-4343-847b-0f036648bef1)
+6307 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This will delete product and verify that product is deleted to file C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy\target\site\serenity\fb71de844e708bec11e4539fc5a935e5463ce63b64edc4537198c221d8c932a1.json (using temp file C:\Users\nikss\IdeaProjects\API\Week 18 Serenity\serenity-bestbuy\target\site\serenity\fb71de844e708bec11e4539fc5a935e5463ce63b64edc4537198c221d8c932a1.jsona00ad654-fe52-4e80-8723-fa34313a65cd)
+6856 [pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Products CRUD test:test002 in 78ec9d7692ae9c5d2b7141e67262b52b1071d8e76ff11a9a6fb1f7bc7e95c427.html in directory target\site\serenity  
+6856 [pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Products CRUD test:test001 in f48b1cce2ac577a2ec240cc62fccbc0ed9caed38adfb96e412d1f81fedc93d38.html in directory target\site\serenity  
+6856 [pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Products CRUD test:test003 in af32c199558a01fdb96dcfe7c95c7bf1c5a841a0f96603d0957d50b065b8785e.html in directory target\site\serenity  
+6856 [pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Products CRUD test:test004 in fb71de844e708bec11e4539fc5a935e5463ce63b64edc4537198c221d8c932a1.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+</testsuite>
